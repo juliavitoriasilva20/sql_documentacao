@@ -1,0 +1,16 @@
+CREATE TABLE `projeto`.`documentacao` ('ID' INT NOT NULL ,
+                    `Nome_completo` VARCHAR (50) NOT NULL ,
+                    `CPF` VARCHAR(15) NOT NULL ,
+                    `Telefone` VARCHAR(17) NOT NULL ,
+                    `Celular` VARCHAR(17) NOT NULL ,
+                    `Email` VARCHAR(20) NOT NULL ,
+                    `CEP` VARCHAR(9) NOT NULL ,
+                    `Endereco` VARCHAR(50) NOT NULL ,
+                    `Bairro` VARCHAR(50) NOT NULL ,
+                    `Complemento` VARCHAR(20) NOT NULL
+                    `UF` VARCHAR(2) NOT NULL ,
+                    `Cidade` VARCHAR(20) NOT NULL ,
+                    `Nome_do_documento` VARCHAR(30) NOT NULL ,
+                    `Tipo_do_documento` VARCHAR(20) NOT NULL ,
+                    `Data_de_emissao` DATE(10) NOT NULL ,
+                    `Data_de_vencimento` DATE(10) NOT NULL ) ENGINE = InnoDB;
